@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* font-family: "Roboto", sans-serif; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+    background-color: #F8F4F2;
+}
+
+.navlogo{
+    width: 150px;
+    fill: #FF4300;
+}
+.navtext{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    a{
+        display: flex;
+        color: black;
+        text-decoration: none;
+    }
+}
+ .navtext a:last-child{
+      background-color: #565451;
+      padding: 15px 25px;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    display: none;
+    img{
+        width: 40px;
+    }
+    button{
+        padding: 10px 30px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-color: #565451;
+    }
+}
+
+
+
+.hero{
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3)),
+      url("https://prod-website-backend-uploads.s3.eu-west-1.amazonaws.com/hero_image_1_5dd50208c8.jpeg?auto=format&fit=max&w=3840&q=100");
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.hero1{
+     h1{
+        color: white;
+        font-size: 80px;
+        font-weight: 700;
+        margin-bottom: 20px;
+     }
+     p{
+        color: white;
+        font-size: 20px;
+        line-height: 26px;
+        width: 40%;
+        padding-bottom: 50px;
+     }
+     a{
+      margin-bottom: 100px;
+      background-color: #FF4300;
+      padding: 20px 25px;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+      
+     }
+}
+.hero2{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    gap: 5px;
+    img{
+        width: 30px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+    .number{
+        color: white;
+        font-size: 29px;
+        font-weight: 800;
+    }
+}
+.hero3{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    p{
+        font-size: 19px;
+        font-weight: 400;
+        color: white;
+    }
+    h4{
+        font-size: 50px;
+        font-weight: 500;
+        color: white;
+    }
+    span{
+        padding-left: 70px;
+    }
+    
+}
+section{
+    display: flex;
+    padding: 150px 30px;
+    align-items: center;
+    
+}
+.section1{
+    h1{
+        width: 60%;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 52px;
+        color: #565451;
+    }
+    p{
+        width: 68%;
+        padding: 20px 0px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #565451;
+        font-weight: 700;
+        padding-bottom: 70px;
+    }
+    span{
+        display: block;
+        color: #FF4300;
+    }
+    a{
+      background-color: #565451;
+      padding: 20px 40px;
+      border-radius: 40px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+     
+    }
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    background-image: url(./assets/bckgg.svg);
+    background-repeat: no-repeat;
+    p{
+        color: #FF4300;
+        padding-top: 30px;
+        font-size: 19px;
+        font-weight: 800;
+    }
+}
+.secimg1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 55px;
+}
+.secimg2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.secimg3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.video{
+    position: relative;
+    height: auto;
+    width: 100%;
+    video{
+        width: 100%;
+       
+    }
+}
+.videotext{
+    position: absolute;
+    top : 80px;
+    left: 30px;
+    h1{
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        width: 250px;
+        span{
+            display: block;
+            color: #FF4300;
+        }
+    }
+    h4{
+        font-size: 30px;
+        color: #FF4300;
+
+    }
+    p{
+      font-size: 16px;
+      font-weight: 400;
+      color: white;  
+      width: 400px;
+      line-height: 28px;
+    }
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(153, 151, 145);
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+    a{
+        background-color: #FF4300;
+        padding: 15px 25px;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
+.videotext2{
+    display: none;
+
+    h1{
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        width: 250px;
+        span{
+            display: block;
+            color: #FF4300;
+        }
+    }
+    h4{
+        font-size: 30px;
+        color: #FF4300;
+
+    }
+    p{
+      font-size: 16px;
+      font-weight: 400;
+      color: white;  
+      width: 400px;
+      line-height: 28px;
+    }
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(153, 151, 145);
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+    a{
+        background-color: #FF4300;
+        padding: 15px 25px;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
+main{
+ display: flex;
+ margin-top: 170px;
+ margin-bottom: 100px;  
+}
+.maintext{
+    padding-left: 30px;
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 52px;
+        width: 100px;
+        margin-bottom: 25px;
+        color: rgb(44, 41, 38);
+        span{
+            display: block;
+            color: #FF4300;
+        }
+}
+    p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 280px;
+    margin-bottom: 50px;
+
+}
+a{
+      background-color: #2C2926;
+      padding: 15px 28px;
+      border-radius: 50px;
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+      text-decoration: none;
+     
+}
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1020px){
+    .navtext{
+        display: none;
+    }
+    .navlogo{
+          width: 100px;
+    }
+    .navmenu{
+        display: block;
+        display: flex;
+        align-items: center;
+        buttom{
+            margin-top: 0px;
+        }
+       
+    }
+   .hero{
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 17px;
+    }
+    a{
+        font-size: 14px;
+        padding: 15px 20px;
+        margin-bottom: 70px;
+    }
+   }
+   .hero3{
+        gap: 20px;
+        padding-top: 180px;
+   }
+   .hero2{
+    padding-top: 50px;
+    .number{
+        font-size: 25px;
+    }
+   }
+   section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 70px;
+   }
+   .section1{
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 50px;
+    }
+    a{
+        /* font-size: 14px; */
+        padding: 15px 30px;
+    }
+   }
+   .section2{
+    overflow-x: scroll;
+   }
+   .videotext{
+    display: none;
+   }
+   .videotext2{
+    margin-top: -10px;
+    padding-top: 30px;
+    background-color: #2C2926;
+    height: 500px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    
+    h1{
+        padding-left: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        width: 350px; 
+        line-height: 40px;
+    }
+    h4{
+        padding-left: 20px;
+    }
+    h5{
+        padding-left: 20px;
+    }
+    p{
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;  
+        width: 400px;
+        line-height: 30px; 
+    }
+    a{
+        margin-left: 20px;
+        padding: 15px 30px;
+    }
+    
+   }
+   main{
+    flex-direction: column;
+    margin-top: 20px;
+   }
+   .mainimg{
+    margin-top: 50px;
+    padding-left: 50px;
+    img{
+        width: 430px;
+    }
+   }
+   .maintext{
+        h1{
+            width: 300px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+        p{
+            width: 380px;
+            font-weight: 300;
+            font-size: 17px;
+        }
+   }
+}
