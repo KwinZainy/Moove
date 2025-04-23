@@ -250,6 +250,7 @@ section{
 }
 .videotext2{
     display: none;
+    height: auto;
 
     h1{
         color: white;
