@@ -58,7 +58,6 @@ nav{
       url("https://prod-website-backend-uploads.s3.eu-west-1.amazonaws.com/hero_image_1_5dd50208c8.jpeg?auto=format&fit=max&w=3840&q=100");
     background-position: center;
     background-size: cover;
-    /* position: relative; */
     padding-top: 100px;
     padding-left: 30px;
 }
@@ -98,13 +97,13 @@ nav{
         width: 30px;
     }
     p{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
         color: white;
     }
     .number{
         color: white;
-        font-size: 29px;
+        font-size: 25px;
         font-weight: 800;
     }
 }
